@@ -1,0 +1,710 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
+body{
+    font-family: 'Nanum Myeongjo', 'Nanum Gothic', sans-serif, 'helvetica', serif, 'AppleGothic';
+    text-align: center;
+}
+.w-main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.w-main .w-main-nm{
+    width: 70%;
+    height: 42%;
+    margin: 40%  auto;
+    position: relative;
+    /* top: 15%; */
+    background:url("https://i.pinimg.com/originals/69/56/93/695693b37e5c442baca63f184afcd68c.png") no-repeat center;
+    background-size: contain;
+    font-size: 1.5rem;
+}
+.w-main .w-main-nm h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+}
+.w-main-info {
+    width: 100%;
+    position: relative;
+}
+.w-main-dt{
+    display: inline-block;
+    /* border-bottom: 1px solid #666; */
+}
+.w-main-dt strong{
+    position: relative;
+    font-size: 1.5rem;
+    top:-5px;
+    padding: 0 5px; 
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+.w-main-dt .w-main-lo{
+    line-height: 1.2rem;
+}
+.w-main-dt::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.w-main-dt > li{
+    float: left;
+    margin-left:5px;
+}
+.w-main-dt > li:first-child{
+    margin-left: 0;
+}
+.w-side-article-h {
+    height: calc(100vh - 5vh);
+}
+.w-infomation{
+    width: 100%;
+    background-color: #eef8e9;
+}
+.w-infomation > article {
+    width: 90vw;
+    height: 90vh;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 5%;
+}
+.w-infomation > article p.invit-title {
+    padding: 20% 0;
+    letter-spacing: 1.025em;
+}
+.w-infomation > article p.invit-content {
+    line-height: 3rem;
+}
+.w-infomation > article .bubu-fm {
+    margin: 10% 10%;
+}
+.w-infomation > article p.bubu-nm {
+    line-height: 8rem;
+    font-size: 1.5rem;
+}
+.w-infomation > article p.honju-nm {
+    font-size: 0.4rem;
+    letter-spacing: 0.5em;
+}
+.w-infomation > article p.honju-nm > em {
+    font-size: 1rem;
+    font-style: normal;
+}
+.w-infomation > article p.w-dt {
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    border-bottom: 1px solid #666;
+}
+.w-connect{
+    width: 100%;
+    font-family: "Noto Sans KR";
+}
+
+.w-connect .connect-header {
+    width: 100vw;
+    padding:20px 0;
+    margin-bottom: 30px;
+    background: #eef8e9;
+     color: #6d8961;
+     font-size: 1rem;
+     font-weight: 400;
+}
+.w-connect div.connect-boxes::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.w-connect .connect-box{
+    float: left;
+    width: 50vw;
+    background-color: #fff;
+}
+.w-connect .connect-box .connect-btns {
+    margin-bottom: 20px;
+}
+.w-connect .connect-box .connect-btns a{
+    color:#fff;
+}
+.w-connect .connect-title{
+    margin-bottom: 20px;
+}
+.w-connect .connect-title.green-title{
+    color: #85b791;
+}
+.w-connect .connect-title.pink-title{
+    color: #f7b7b5;
+}
+.w-connect .connect-honju-info {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #999;
+}
+.w-connect .connect-honju-info > em{
+    font-size: 1.3rem;
+    font-style: normal;
+    color: #111;
+}
+
+#bank{
+    position: relative;
+    background: url("https://lh3.googleusercontent.com/proxy/EPbDU7GB2v-Dzqk7i8-adv9O3Ghh2ux-fEMKIcuV9VCBtEyuFPqqvBr2YbUkYPd8HogHdM4kXxrEkxDD0oqMJv9vmyK1WzbKNsZ_XlTQpNutRofCw0e5yZk2NtvflOqnn67WchN7TLD8blHI3cN0JwWs8UeOA2Th") no-repeat center 5%;
+    background-size: 50%;
+}
+
+#bank .account-wrap{
+    position: absolute;
+    width: 80vw;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffaa;
+    font-size: 1rem;
+}
+#bank .account-wrap .account-title{
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+#bank .flower2-icon{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color:#e7a4ae97;
+}
+
+.w-calendar{
+    width: 100%;
+    position: relative;
+    background-color: #eef8e9;
+}
+.w-calendar > article{
+    height: 100%;
+}
+.w-calendar .caleander-wrap{
+    width: 90vw;
+    height: 90vw;
+    position: relative;
+    top:5%;
+    left:50%;
+    transform: translateX(-50%);
+    border: 3px solid #b4d4a4;;
+    background:#fff url('../img/date.png') no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 5%;
+    margin-bottom: 8%;
+}
+.w-calendar .block-icon{
+    font-size: 4rem;
+    padding-top:10%;
+    color: #b4d4a4;
+}
+.w-calendar .account-title{
+    font-size: 1.5rem;
+    color: #6d8961;
+    padding-top:10%
+}
+.w-calendar .account-wrap{
+    position: absolute;
+    width: 100%;
+    bottom: 5vh;
+}
+.w-calendar .account-content{
+    background-color: #fff;
+    border-radius: 5%;
+}
+.w-gallery{
+    width: 100%;
+}
+.w-gallery .content{
+    position: relative;
+    width: 100%;
+    left:50%;
+    transform: translateX(-50%);
+}
+.w-gallery .w-title{
+    padding: 20px 0;
+    background: #eef8e9;
+    color: #6d8961;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.w-gallery .w-title .w-title-text{
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+#location.w-location{
+    width: 100%;
+    
+}
+
+.w-location .title{
+    padding: 20px 0;
+    margin-bottom: 10px;
+    background: #eef8e9;
+    color: #6d8961;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.w-location .content{
+    position: relative;
+    text-align: left;
+}
+.w-location .content-info{
+    padding:10% 10%;
+}
+.w-location .wedding-name{
+    padding: 5% 0;
+}
+.w-location .wedding-address{
+    color:#888;
+    line-height: 1.4rem;
+}
+.w-location .wedding-address{
+    line-height: 1.4rem;
+}
+.w-location .call{
+    position: absolute;
+    color:#fff;
+    font-size: 1.5rem;
+    padding: 2%;
+    background-color: #85b791;
+    border: 1px solid #85b791;
+    border-radius: 50%;
+    top: 0;
+    right: 5%;
+}
+
+.w-location .map-anchor{
+	position: relative;
+}
+.w-location .map-ponit{
+	position: absolute;
+	background-size: 100%;
+	padding:50px;
+	color:rgb(228, 65, 65);
+	font-size: 2rem;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -55%);
+}
+.w-location .link{
+    margin-top:20%;
+}
+.w-location .link ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.w-location .link li{
+    float:left;
+    width: calc(100% / 3 );
+    text-align: center;
+    font-family: cursive;
+    font-size: 0.8rem;
+}
+.w-location .link li img{
+    width: 50%;
+    padding:5%;
+}
+
+#location2 .info{
+	padding-top: 0.625rem;
+    background: #f4f4f4;
+    text-align: left;
+}
+#location2 .info .contain{
+	padding-top:1.2rem;
+	padding-bottom:1.250rem;
+	background: #fff;
+}
+#location2 .info dl{
+	padding:0.625rem 0.5rem;
+	border-bottom:1px solid #eee;
+}
+#location2 .info dl:first-child{
+	padding-top:0;
+}
+#location2 .info dt{
+	margin-bottom:0.250rem;
+	font-family:'Nanum Myeongjo';
+	font-size:0.813rem;
+	font-weight:400;
+	line-height:1.250rem;
+	color:#111;
+}
+#location2 .info dd{
+	font-family: 'Nanum Myeongjo';
+	font-size:0.8rem;
+	font-weight:300;
+	line-height:1.5rem;
+	color:#777;
+	white-space:pre-wrap;
+}
+
+
+.top-nav{
+    width: 100%;
+    height: 5vh;
+    background-color: #fff;
+    border-bottom: 1px solid #b4d4a4;
+}
+.top-nav .menu-box {
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+.top-nav  ul {
+    width: 100vw;
+    display: inline-block;
+    margin: auto 0;
+}
+.top-nav  ul::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.top-nav  ul > li {
+    width: calc(100% / 5);
+    float: left;
+}
+.top-nav  ul > li > a {
+    font-family: "Noto Sans KR";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #111;
+}
+.fiexed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+footer {
+    background-color: #333;
+    font-size: 0.3rem;
+    color: #fff;
+    font-family: "Noto Sans KR";
+    height: 30vh;
+}
+.phone-btn {
+    position: relative;
+    padding: 7vw;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.phone-btn>svg {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.phone-btn.green-phone-btn {
+    background-color: #85b791;
+}
+.phone-btn.pink-phone-btn {
+    background-color: #f7b7b5;
+}
+
+
+/* 초대합니다 > 하트 아이콘  */
+.heart-icon{
+    position: relative;
+    top:2px;
+    font-size: 1.2rem;
+    color: #e7a4ae;
+}
+
+/* 혼주분들 이름 위치  */
+.honjus-box{
+   line-height: 1.5rem;
+   margin-top:20%;
+}
+
+
+div.invit-logo{
+    margin: 0 auto;
+    width: 20vh;
+    height: 20vh;
+    background: url('https://cdn.crowdpic.net/list-thumb/thumb_l_238B4B58BB065F4F5E114CDFAD1E70AC.jpg')  no-repeat center;
+    background-size: contain;
+} 
+
+
+
+
+
+
+
+
+
+.gallery-section{
+	padding:3.125rem 0;
+}
+.gallery-section .ex{
+	margin-top:1.125rem;
+	font-size:0.750rem;
+	font-weight:400;
+	line-height:1;
+	text-align:center;
+	color:#111;
+}
+.gallery-section .contain{
+	padding:0 16px;
+	overflow:hidden;
+}
+.gallery-section .contain .lSSlideOuter{
+	overflow:hidden;
+}
+.gallery-section .gallery li .box{
+	background:#f4f4f4;
+}
+.gallery li .box{
+	position:relative;
+	width:100%;
+	padding-bottom:100%;
+	overflow:hidden;
+}
+.gallery li .pos{
+	position: absolute;
+	left:0; top:0;
+	width:100%;
+	height:100%;  
+}
+.gallery li .cen{
+	display:-webkit-box; 
+	display:-ms-flexbox; 
+	display:flex;
+	width:100%;
+	height:100%;
+	align-items: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	font-size:0;
+	line-height:0;
+	text-align:center;
+}
+.gallery li img{
+	flex-shrink:0;
+	max-width:100%;
+	max-height:100%;
+}
+.lSSlideOuter .lSPager.lSGallery a{
+	position:relative;
+	width:100%;
+	padding-bottom:100%;
+	overflow:hidden;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.lSSlideOuter .lSPager.lSGallery a:after{
+	content:'';
+	display:block;
+	position:absolute;
+	left:0; top:0; 
+	right:0; bottom:0;
+	background-color:rgba(0, 0, 0, .5);
+}
+.lSSlideOuter .lSPager.lSGallery .active a:after{
+	display:none;
+}
+.lSSlideOuter .lSPager.lSGallery img{
+	display:none;
+	position:absolute;
+	left:50%; top:0;
+	max-width:inherit;
+	height:100%;
+	transform: translate(-50%, 0);
+}
+
+.gallery-pop-wrap{
+	z-index:101;
+	position:fixed;
+	left:0; top:0;
+	right:0; bottom:0;
+	width:100%;
+	height:100%;
+	opacity: 0;
+	transform: translate3d(0,-100%,0);
+	transition:all .3s;
+	background:#000;
+}
+
+.gallery-pop-wrap .pop-header{
+	height:3.188rem;
+	background-color:#000;
+	border-bottom:1px solid #333;
+	margin-bottom:1.250rem;
+}
+.gallery-pop-wrap .pop-header .tit{
+	font-family:"Noto Sans KR";
+	font-size:1.125rem;
+	font-weight:400;
+	line-height:3.125rem;
+	color:#fff;
+	text-align:center;
+}
+.gallery-pop-wrap .pop-body{
+	height:calc(100% - 4.438rem);
+	background-color:#000;
+	padding:0;
+	visibility:hidden;
+	opacity:0;
+}
+
+.gallery-pop-wrap .lSSlideOuter{
+	position:relative;
+	height:100%;
+}
+.gallery-pop-wrap .lSSlideWrapper{
+	position: absolute;
+	left:0; top:0;
+	right:0;
+	height:calc(100% - 6.875rem);
+	overflow:hidden;
+}
+.gallery-pop-wrap .gallery li .box{
+	padding-bottom:0;
+}
+.gallery-pop-wrap .gallery,
+.gallery-pop-wrap .gallery li,
+.gallery-pop-wrap .gallery .box{
+	height:100% !important;
+}
+.gallery-pop-wrap .lSPager.lSGallery{
+	position: absolute;
+	left:0.313rem; bottom:0.313rem;
+}
+.gallery-pop-wrap .close-btn{
+	position: absolute;
+	right: 0; top: 0;
+	display:block;
+	width: 3.375rem;
+	height:3.188rem;
+	background: url("../img/gallery_close.png") 50% 50% no-repeat;
+	background-size:0.875rem auto;
+	font-size: 0;
+	line-height: 0;
+}
+
+.gallery-section .type2-list{
+	margin:-0.125rem -0.063rem 0;
+}
+.gallery-section .type2-list:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.gallery-section .type2-list li{
+	float:left;
+	width:33.333%;
+	padding:0.125rem 0.063rem 0;
+	box-sizing:border-box;
+}
+.gallery-section .type2-list .box{
+	display:block;
+	padding-bottom:100%;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.gallery-section .type3-list{
+	margin:-0.781rem -0.438rem 0;
+}
+.gallery-section .type3-list:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.gallery-section .type3-list li{
+	float:left;
+	width:33.333%;
+	padding:0.781rem 0.438rem 0;
+	box-sizing:border-box;
+}
+.gallery-section .type3-list .box{
+	display:block;
+	padding-bottom:100%;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius:50%;
+}
+
+.cS-hidden {
+    height: 1px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    overflow: hidden;
+}
+
+.foot-share{
+	padding:1.875rem 0 1.563rem;
+	background:#333;
+	border-bottom:1px solid #222;
+	text-align: center;
+}
+.foot-share ul{
+	font-size:0;
+	line-height:0;
+}
+.foot-share li{
+	display:inline-block;
+	vertical-align:top;
+	width:3.125rem;
+	padding:0 0.938rem;
+	box-sizing:content-box;
+}
+.foot-share a{
+	position:relative;
+	display:block;
+	padding-top:3.563rem;
+	font-family:"Noto Sans KR";
+	font-size:0.688rem;
+	font-weight:300;
+	line-height:0.875rem;
+	text-align:center;
+	color:#aaa;
+	text-decoration:none;
+}
+.foot-share a:after{
+	content:'';
+	display:block;
+	position: absolute;
+	left: 50%; top: 0;
+	margin-left:-1.563rem;
+	width:3.125rem;
+	height:3.125rem;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	background-size:3.125rem;
+}
+.foot-share .kakao:after{
+	background-image:url("../img/footer_kakao.png");
+}
+.foot-share .copy-link:after{
+	/* background-image:url("../images/common/footer_facebook.png"); */
+	background-image: url("https://image.flaticon.com/icons/png/512/181/181531.png");
+}
+.date{
+    position: fixed;
+    top:1%;
+    right: 5%;
+    font-size: 2rem;
+}
